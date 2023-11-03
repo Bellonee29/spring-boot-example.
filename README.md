@@ -1,0 +1,23 @@
+           # Adding Short review
+# Review on customer class:
+The Customer class is well-structured as an entity with all the necessary components for creating a JPA entity. It adheres to best practices for entity design.
+
+# Suggestion or Recommendation:
+I recommend incorporating Lombok annotations to simplify the boilerplate code and enhance code scalability. This will lead to more concise and maintainable code.
+
+# Review on file structuring:
+The file structuring appears somewhat disorganized.
+
+# Suggestion or Recommendation:
+I suggest organizing the code into different packages, such as creating a "model" package for the Customer class and a "repository" package for the CustomerRepository. This will improve code organization and maintainability.
+
+# Review on the main class:
+The main class contains a substantial amount of code that could be simplified to provide a cleaner entry point for the project.
+
+# Suggestion or Recommendation:
+
+I will suggest to create a separate class to act as a controller and handle all the routing, rather than embedding it within the main class. This will help separate concerns and make the code more modular.
+Always ensure that unnecessary comments are removed before pushing changes to the repository, as they can clutter the codebase and lead to confusion for other developers.
+
+# Finally
+By following these recommendations, the codebase can become more organized, maintainable, and professional in the software engineering field.
